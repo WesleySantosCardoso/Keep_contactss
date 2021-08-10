@@ -1,0 +1,39 @@
+#banner {/*Bandeira*/
+    width: 100%;
+}
+.principal { /*mexe em tudo ue esta na class principal*/
+  background-color: darkgray;
+  padding: 30px;
+}
+.titulo-principal {
+  padding-left: 20px;
+}
+.titulo-centralizado{ /*todos os teto em h1 estaram linhados*/
+  text-align:center;
+}
+p { /*mexe nos prágrafos do html*/
+  text-align:center;
+}
+#missão {/*identificador*/
+   font-size:20px;
+}
+em strong {/*mexe em todos os strong e enfase no html*/
+  color: red;  
+}
+.itens { /*mexe em todos os itens do li*/
+  font-style: italic;
+}
+.beneficios { /*mexe na cor de fundo de todos os beneficios*/
+  background:white;
+  padding: 20px;
+}
+ul {/*tudo em ul permite ficar do lado*/
+  display: inline-block;
+  vertical-align: top;
+   font-size: 20px;
+   width: 20%;
+   margin-right: 15%
+}
+.imagembeneficios {/*deixa do lado da lista ul*/
+  width: 50%;
+}
