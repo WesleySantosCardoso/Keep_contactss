@@ -1,0 +1,133 @@
+:root {
+    --preto: #000000;
+    --bordo: #40010D;
+    --vermelho-sangue: #8C031C;
+    --branco: #FFF;
+}
+
+body {
+    background-color:var(--preto);
+}
+
+/*Header*/
+
+.cabecalho-principal {
+    background-color: var(--preto);
+}
+
+.navegacao {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+}
+
+nav li {
+    display:inline;
+    margin: 0 0 0 15px;
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration:none;
+}
+
+nav a:hover {
+    color: var(--vermelho-sangue);
+    text-decoration: underline;
+}
+
+/*Main*/
+
+ul {
+    text-align: center;
+    color: white;
+    font-size:30px;
+}
+
+.imagem-principal {
+    width: 100%;
+}
+
+.titulo-principal {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 90px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 1em;
+    color:var(--branco);
+    position: absolute;
+    top: 200px;
+    right: 30%;
+    text-shadow: #8C031C 10px 5px 2px ;
+}
+
+.subtitulo {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    color: var(--branco);
+    text-align: center;
+    font-weight: bold;
+    background-image: url(plano-de-fundo-titulo.jfif);
+    padding: 1em;
+    text-shadow: var(--preto) 10px 5px 2px;
+}
+
+.conteudo {
+    text-align: center;
+    font-family:'Architects Daughter', cursive;
+    font-size: 25px;
+    font-style: italic;
+    color:white;
+    padding: 1em;
+}
+form label, form legend {
+    display:block;
+    font-size:20px;
+    margin: 0 0 10px;
+    color: #8C031C;
+}
+.input-padrao {
+    display:block;
+    margin:0 0 20px;
+    padding:10px 25px;
+    width:50%;
+}
+#mascote {
+    width: 100%;
+    height: 600px;
+}
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    background: #e2dfe0;
+    color: #8C031C;
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    transition:1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: #40010D;
+}
+.selecao-cores {
+    font-size: 20px;
+}
+thead {
+    background:darkgray;
+    color:white;
+    font-weight:bold;
+}
+th, td {
+    padding: 1px;
+    background:black ;
+    color: white;
+    font-size: 25px;
+    border:1px solid var(--bordo);
+    padding: 8px 15px;
+}

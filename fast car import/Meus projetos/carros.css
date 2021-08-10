@@ -1,0 +1,83 @@
+:root {
+    --preto: #000000;
+    --bordo: #40010D;
+    --vermelho-sangue: #8C031C;
+    --branco: #FFF;
+}
+body {
+    background-color: black;
+}
+/*header*/
+
+.cabecalho-principal {
+    background-color: var(--preto);
+}
+
+.navegacao {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+}
+
+nav li {
+    color: var(--vermelho-sangue);
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:white;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+}
+
+nav a:hover {
+    color: var(--vermelho-sangue);
+    text-decoration:underline;
+}
+nav li:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+nav li:active  {
+    color: blue;
+}
+
+/*main*/
+
+ul {
+    text-align: center;
+    color: white;
+    font-size:30px;
+}
+
+.titulo-principal {
+    font-size: 40px;
+    text-align: center;
+    color: var(--branco);
+}
+.produtos{
+    font-family:'Shadows Into Light', cursive;
+    font-size: 25px;
+    text-align:center;
+    color: var(--vermelho-sangue);
+}
+
+.lista {
+    display: inline-block;
+    text-align: center;
+    width:20%;
+    vertical-align:top;  
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid var(--branco);
+    border-radius: 10px;
+}
+
+.selecao-cores {
+    font-size: 12px;
+}
